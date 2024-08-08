@@ -34,6 +34,7 @@
     letter-spacing: 0;
     text-align: left;
     outline: none;
+
 }
 
 .input:focus {
@@ -52,6 +53,12 @@
     border-radius: 5px;
     border: 1px solid rgb(204, 0, 0);
     cursor: none;
+    outline: none;
+}
+
+.errorInput:focus {
+    outline: none;
+    border: 1px solid rgb(204, 0, 0);
 }
 
 .button {
