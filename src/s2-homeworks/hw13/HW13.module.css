@@ -1,22 +1,53 @@
 .buttonsContainer {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 70px;
 }
 
 .responseContainer {
+
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .imageContainer {
+    margin: 50px
 }
 
 .image {
+
 }
 
 .textContainer{
+    width: 550px;
+    margin-right: 100px;
+    margin-top: 70px;
+    padding: 20px;
 }
 
 .code {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0;
+    text-align: left;
 }
 
 .text {
+
 }
+
 .info {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
 }
