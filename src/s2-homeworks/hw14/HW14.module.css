@@ -1,7 +1,23 @@
 .tech {
-
+    color: rgba(0, 0, 0, 1);
+    margin-left: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
 }
 
 .loading {
-
+    color: rgba(77, 77, 77, 1);
+    font-family: Roboto;
+    font-weight: 300;      /* Light вес */
+    color: #666;           /* Светлый цвет */
+    opacity: 0.8;          /* Лёгкая прозрачность */
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align:  center;
 }

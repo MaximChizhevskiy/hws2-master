@@ -35,10 +35,11 @@ const HW14 = () => {
         getTechs(value)
             .then((res) => {
                 // делает студент
-
+                console.log(res?.data.techs)
                 // сохранить пришедшие данные
-
-                //
+                if (res)
+                setTechs(res.data.techs)
+                setLoading(false)
             })
     }
 
@@ -47,7 +48,7 @@ const HW14 = () => {
         // делает студент
 
         // добавить/заменить значение в квери урла
-        // setSearchParams(
+        setSearchParams(value)
 
         //
     }
@@ -79,7 +80,6 @@ const HW14 = () => {
                 <div id={'hw14-loading'} className={s.loading}>
                     {isLoading ? '...ищем' : <br/>}
                 </div>
-
                 {mappedTechs}
             </div>
         </div>
