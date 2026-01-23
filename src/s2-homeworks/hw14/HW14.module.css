@@ -11,6 +11,7 @@
 }
 
 .loading {
+    margin-left: 390px;
     color: rgba(77, 77, 77, 1);
     font-family: Roboto;
     font-weight: 300;      /* Light вес */
@@ -19,5 +20,4 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0;
-    text-align:  center;
 }
